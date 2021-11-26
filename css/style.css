@@ -17,7 +17,6 @@
 }
 
 #pai{   
-    background-color: lime;
     position:absolute;
     width:100%;
     height:15%; 
@@ -25,15 +24,13 @@
     top:0px;
 }
 
-#paidopai{  
-    background-color: mediumslateblue;
+#paidopai{ 
     position:absolute;
     right:30%;
     width: 40%;
     height:100%;   
 }
 #logo{
-    background-color: midnightblue;
     border-image: 100%;
     position: absolute;
     left:0px;
