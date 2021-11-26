@@ -1,25 +1,40 @@
 #palavras {
-    width:500px;
+    width:70%;
     display:flex;
     position:absolute;
-    transform:translateX(76%);
-    justify-content: space-between;
+    right:0%;
+    justify-content:space-between;
+    bottom:0px;
 }
 
 #sacola{
-    position: absolute;
-    right: 100px;
-    transform:translate(-50%,-50%);
-}
-#pai{
     position:absolute;
+    display:flex;
+    top:0px;
+    right:0px;
     width:60%;
-    height:500px; 
+    justify-content:right;
 }
-#paidopai{
+
+#pai{   
+    background-color: lime;
     position:absolute;
-    right:20%;
-    width: 60%;
-    height:500px;
-    
+    width:100%;
+    height:15%; 
+    right:0px;
+    top:0px;
+}
+
+#paidopai{  
+    background-color: mediumslateblue;
+    position:absolute;
+    right:30%;
+    width: 40%;
+    height:100%;   
+}
+#logo{
+    background-color: midnightblue;
+    border-image: 100%;
+    position: absolute;
+    left:0px;
 }
