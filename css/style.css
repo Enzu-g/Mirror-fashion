@@ -1,10 +1,12 @@
+
 #palavras {
     width:70%;
     display:flex;
     position:absolute;
     right:0%;
-    justify-content:space-between;
     bottom:0px;
+    justify-content: space-around;
+
 }
 
 #sacola{
@@ -12,26 +14,28 @@
     display:flex;
     top:0px;
     right:0px;
-    width:60%;
     justify-content:right;
 }
 
-#pai{   
+#cabeçalho{  
+    list-style: none; 
     position:absolute;
     width:100%;
-    height:15%; 
+    height:10%; 
     right:0px;
     top:0px;
 }
 
-#paidopai{ 
+#paidopai{
+    top: 0%;
     position:absolute;
-    right:30%;
-    width: 40%;
+    width:40%;
+    right: 30%;
     height:100%;   
 }
 #logo{
-    border-image: 100%;
+    height:73%;
+    width: 24%;
     position: absolute;
     left:0px;
 }
