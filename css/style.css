@@ -6,9 +6,8 @@
     right:0%;
     bottom:0px;
     justify-content: space-around;
-
+    font-size: 90%;
 }
-
 #sacola{
     position:absolute;
     display:flex;
@@ -16,9 +15,7 @@
     right:0px;
     justify-content:right;
 }
-
 #cabeçalho{  
-    
     list-style: none; 
     position:absolute;
     width:100%;
@@ -26,8 +23,8 @@
     right:0px;
     top:0px;
 }
-
 #paidopai{
+    font-family:Arial, Helvetica, sans-serif;
     top: 0%;
     position:absolute;
     width:40%;
@@ -41,6 +38,7 @@
     left:0px;
 }
 #meio{
+    font-family:Arial, Helvetica, sans-serif;
     top:11%;
     height:40%;
     width:100%;
@@ -60,13 +58,14 @@
 #esquerda{
     position:absolute;
     height: 70%;
-    width: 23%;  
+    width: 24%;  
 }
-#cima-esquerda{  
+#cima-esquerda{ 
     position: absolute;
     height: 18%;
     width:100%;
-    background-color: rgb(211, 209, 209)
+    background-color: rgb(211, 209, 209);
+    display:flex;  
 }
 #baixo-esquerda{
     top:20%;
@@ -102,18 +101,32 @@
     top: 0px;
     font-size: 90%;
 }
+#pesquisar{
+    left:6px;
+    bottom:5px;
+    position: absolute;
+    width:70%;
+    height:24%;
+    background-color: white;
+    outline-color: rgb(182, 181, 181);
+    outline-style: solid;
+    outline-width: 2px;
+}
 #lupa{
     position:absolute;
-    right:0px;
-    height: 38px;
-    width: 38px;
+    height: 20px;
+    width: 20px;
+    bottom:2px;
+    right: 12px;
 }
 #menor ul{
+    text-align: center;
     list-style: none;  
 }
 #blusas{
     position: absolute;
-    transform: translatex(-29%);
+    position: absolute;
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
@@ -121,7 +134,8 @@
 #calcas{
     top:26%;
     position: absolute;
-    transform: translatex(-29%);
+    position: absolute;
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
@@ -129,32 +143,58 @@
 #vestidos{
     top:43%;
     position: absolute;
-    transform: translatex(-29%);
+    position: absolute;
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
+   
 }
 #sapatos{
     top:60%;
     position: absolute;
-    transform: translatex(-29%);
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
+    
 }
 #bolsas{
     top:77%;
-    position: absolute;
-    transform: translatex(-29%);
+    position: absolute;  
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
+   
 }
-#acessorios{
+#acessorios{ 
     top: 94%;
     position: absolute;
-    transform: translatex(-29%);
+    
+    transform: translatex(-28%);
     width: 100%;
     height: 15%;
     background-color: white;
+   
+}
+#ultimo-quad{
+    top: 52%;
+    position: absolute;
+    display:flex;
+    height: 40%;
+    width: 100%;
+}
+#novidades{
+    background-color:lime;
+    position: absolute;
+    width: 50%;
+    height:100%
+}
+#mais-vendidos{
+    background-color:red;
+    position: absolute;
+    width: 50%;
+    height:100%;
+    right: 0%;
 }
