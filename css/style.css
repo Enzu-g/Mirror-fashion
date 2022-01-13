@@ -147,15 +147,81 @@
     width: 100%;
 }
 #novidades{
-    background-color:lime;
+    background-color:lightcoral;
     position: absolute;
-    width: 50%;
+    width: 49.5%;
     height:100%
 }
 #mais-vendidos{
-    background-color:red;
+    background-color:lightseagreen;
     position: absolute;
-    width: 50%;
+    width: 49.5%;
     height:100%;
     right: 0%;
+}
+.nov{
+    background-color: lightsteelblue;
+    height: 8%;
+}
+.nov p{
+    position: absolute;
+    top: 0%;
+}
+
+td{
+    position: absolute;
+    background-color: azure;
+    height: 36%;
+    width: 30%;
+    padding: 0%;
+}
+.a{
+    right: 67%;
+}
+.b{
+    right: 35%;
+}
+.c{
+    right: 3%;
+}
+.d
+{
+    bottom: 15%;
+    right: 67%;
+}
+.e{
+    bottom: 15%;
+    right: 35%;
+}
+.f{
+    bottom: 15%;
+    right: 3%;
+
+}
+.g{
+    width:7%;
+    height: 7%;
+    bottom: 2%;
+    right:  3%;
+    font-size: 80%;
+}
+.g img{
+    transform:translateY(10%);
+    position: absolute;
+}
+#ultimo-quad p{
+    position: absolute;
+    bottom: -10%;
+    font-size: 80%;
+    transform: translateX(20%);
+}
+#novidades img{
+    position :absolute;
+    height: 70%;
+    width: 100%;
+}
+#mais-vendidos img{
+    position :absolute;
+    height: 70%;
+    width: 100%;
 }
