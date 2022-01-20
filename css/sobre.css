@@ -1,4 +1,9 @@
+
+body{
+    background-color: rgba(106, 140, 143, 0.897);
+}
 #sobre{
+    background-color: white;
     font-family:Arial, Helvetica, sans-serif;
     top:0%;
     position:absolute;
@@ -16,9 +21,8 @@ header img{
     height:70;
 }
 #a{
-    background-color: rgb(247, 247, 247);
     position: absolute;
-    height: 60%;
+    height: 50%;
     width: 100%;
     font-size: 70%;
 }
@@ -37,13 +41,13 @@ header img{
     position: absolute;
     width: 86%;
     right: 7%;
-    top: 8%; 
+    top: 10%; 
 }
 #textb{
     position: absolute;
     width: 86%;
     right: 7%;
-    top:18%;
+    top:21%;
 }
 #caixa{
     background-color: rgb(226, 226, 226);
@@ -51,9 +55,27 @@ header img{
     right: 7%;
     height: 55%;
     position: absolute;
-    top: 27%;
+    top: 30%;
     outline: rgb(211, 211, 211);
     outline-style:solid;
+}
+#caixa img{ 
+    position: absolute;
+    height:84%;
+    width: 74%;
+    top:5%;
+    right:15%;
+}
+#caixatext{
+    position: absolute;
+    bottom: 0%;
+    right: 30%;
+}
+#textc{
+    position: absolute;
+    width: 86%;
+    right: 7%;
+    bottom: 6%;
 }
 
   
