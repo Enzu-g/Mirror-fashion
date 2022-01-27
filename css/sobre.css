@@ -1,24 +1,22 @@
-
-body{
-    background-color: rgba(106, 140, 143, 0.897);
-}
 #sobre{
+    outline: rgb(233, 233, 233);
+    outline-style:solid; 
     background-color: white;
     font-family:Arial, Helvetica, sans-serif;
     top:0%;
     position:absolute;
     width: 40%;
-    height: 130%;
+    height: 1500px;
     right: 30%;
 }
 header{
-   height: 10%;
+   height: 80px;
    width: 100%;
 }
 header img{
     position:relative;
-    width:25%;
-    height:70;
+    width:24%;
+    height:55px;
 }
 #a{
     position: absolute;
@@ -29,13 +27,13 @@ header img{
 #mirror{
     position: absolute;
     background-color: rgb(170, 170, 170);
-    height: 6%;
-    font-size: 200%;
+    height: 35px;
+    font-size: 22px;
     width: 98%;
     right: 1%;
 }
 #mirror p{   
-    transform: translate(1%,-60%)
+    transform: translate(1%,-70%)
 }
 #texta{
     position: absolute;
@@ -77,5 +75,43 @@ header img{
     right: 7%;
     bottom: 6%;
 }
+#b{
+    top: 590px;
+    background-color: rgb(185, 136, 136);
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    font-size: 70%;
+}
+#hist{
+    position: absolute;
+    height: 35px;
+    font-size: 22px;
+    width: 98%;
+    right: 1%;  
+    outline: rgb(170, 170, 170); 
+    outline-style: solid;
+    outline-width: 3px;
+}
+#hist p{
+    transform: translate(1%,-70%)
+}
+#texto2{
+    width: 55%;
+    height: 300px;
+    background-color: turquoise;
+    position: absolute;
+    top: 55px;
+    left: 7%;
+}
+#text1-2{
+    position: absolute;
+    top:110px;
+}
+#text1-3{
+    position: absolute;
+    top: 170px;
+}
+
 
   
