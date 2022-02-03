@@ -78,7 +78,7 @@ header img{
 #b{
     top: 590px;
     background-color: rgb(185, 136, 136);
-    height: 400px;
+    height: 330px;
     width: 100%;
     position: absolute;
     font-size: 70%;
@@ -98,7 +98,7 @@ header img{
 }
 #texto2{
     width: 55%;
-    height: 300px;
+    height: 270px;
     background-color: turquoise;
     position: absolute;
     top: 55px;
