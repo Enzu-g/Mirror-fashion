@@ -1,10 +1,15 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
 #paidopai{
     font-family:Arial, Helvetica, sans-serif;
     position:absolute;
     width:40vw;
     right: 30%;
     height:100vh; 
-    transform: translateY(-1%);
 }
 #cabeçalho{
     position: absolute;
@@ -44,14 +49,14 @@
     width: 26%;
 }
 #logo img{
-    height: 70%;
-    width: 90%;
+    height: 80%;
+    width: 100%;
 }
 
 #meio{
     font-family:Arial, Helvetica, sans-serif;
     top:11%;
-    height:40%;
+    height:37%;
     width:100%;
     position:absolute;
 }
@@ -147,20 +152,20 @@
     height: 100%;
 }
 #ultimo-quad{
-    top: 52%;
+    top: 49%;
     position: absolute;
     display:flex;
     height: 40%;
     width: 100%;
 }
 #novidades{
-    background-color:lightcoral;
+    background-image: linear-gradient(to top, rgb(248, 223, 153) , rgb(200, 192, 241));
     position: absolute;
     width: 49.5%;
     height:100%
 }
 #mais-vendidos{
-    background-color:lightseagreen;
+    background-image: linear-gradient(to bottom, rgb(248, 223, 153) , rgb(200, 192, 241));
     position: absolute;
     width: 49.5%;
     height:100%;
@@ -168,18 +173,18 @@
 }
 .nov{
     height: 8%;
-    background-color: lightsteelblue;
+    font-size: 26px;
+    transform: translate(-10px,-18px);
 }
 .nov p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
-    height: 10%;
     left: 0%;
-    top: -2%;
+    top:-2%;
 }
 
 td{
     position: absolute;
-    background-color: azure;
     height: 36%;
     width: 30%;
     padding: 0%;
@@ -208,10 +213,10 @@ td{
 
 }
 .g{
-    width:7%;
+    width: 0%;
     height: 7%;
     bottom: 2%;
-    right:  3%;
+    right:  10%;
     font-size: 80%;
 }
 .g img{
@@ -233,4 +238,11 @@ td{
     position :absolute;
     height: 70%;
     width: 100%;
+}
+footer{
+    position: absolute;
+    background-color: rgb(211, 209, 209);
+    width: 100vw;
+    height: 10vh;
+    bottom: 0px;
 }
