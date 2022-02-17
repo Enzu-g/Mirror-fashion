@@ -1,12 +1,11 @@
+
 #sobre{
-    outline: rgb(233, 233, 233);
-    outline-style:solid; 
     background-color: white;
     font-family:Arial, Helvetica, sans-serif;
     top:0%;
     position:absolute;
     width: 40%;
-    height: 1500px;
+    height: 1090px;
     right: 30%;
 }
 header{
@@ -76,8 +75,7 @@ header img{
     bottom: 6%;
 }
 #b{
-    top: 590px;
-    background-color: rgb(185, 136, 136);
+    top: 570px;
     height: 330px;
     width: 100%;
     position: absolute;
@@ -99,19 +97,79 @@ header img{
 #texto2{
     width: 55%;
     height: 270px;
-    background-color: turquoise;
     position: absolute;
     top: 55px;
     left: 7%;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
 }
-#text1-2{
+
+#caixa2{
+    right: 1%;
     position: absolute;
-    top:110px;
+    height: 240px;
+    width: 36%;
+    background-color: rgb(226, 226, 226);
+    outline: rgb(211, 211, 211);
+    outline-style:solid;
+    top: 58px;
 }
-#text1-3{
+#caixa2 img{ 
     position: absolute;
-    top: 170px;
+    height: 74%;
+    width: 94%;
+    top:2%;
+    right:2%;
 }
+#Família{
+    bottom: 5%;
+    position: absolute;
+    right: 34%;
+}
+#c{
+    top: 880px;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    font-size: 70%;
+}
+#diferenciais{
+    position: absolute;
+    height: 35px;
+    font-size: 22px;
+    width: 98%;
+    right: 1%;  
+    outline: rgb(170, 170, 170); 
+    outline-style: solid;
+    outline-width: 3px;
+}
+#diferenciais p{
+    transform: translate(1%,-70%);
+}
+#lista{
+    position: absolute;
+    width: 100%;
+    top:38px;
+    display: flex;
+    flex-direction:column;
+    gap: 3px;
+}
+footer{
+    position: absolute;
+    height: 70px;
+    width: 99%;
+    background-color: white;
+    bottom:-50%;
+}
+footer img{
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    right:64%;
+}
+
+
 
 
   

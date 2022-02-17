@@ -171,47 +171,30 @@ body{
     height:100%;
     right: 0%;
 }
-.nov{
-    height: 8%;
-    font-size: 26px;
-    transform: translate(-10px,-18px);
-}
-.nov p{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+tr{ 
     position: absolute;
-    left: 0%;
-    top:-2%;
+    height: 85%;
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction:column;
+}
+#ret1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#ret2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+tr td img{
+    position: absolute;
+    height: 10px;
+    width: 10px;
 }
 
-td{
-    position: absolute;
-    height: 36%;
-    width: 30%;
-    padding: 0%;
-}
-.a{
-    right: 67%;
-}
-.b{
-    right: 35%;
-}
-.c{
-    right: 3%;
-}
-.d
-{
-    bottom: 15%;
-    right: 67%;
-}
-.e{
-    bottom: 15%;
-    right: 35%;
-}
-.f{
-    bottom: 15%;
-    right: 3%;
-
-}
 .g{
     width: 0%;
     height: 7%;
